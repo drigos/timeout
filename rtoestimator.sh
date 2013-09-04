@@ -32,10 +32,3 @@ flag=0
       echo $((i++)) $RTT $SRTT $SVAR $RTO >> full_data.txt
    done
 }
-
-#verificar quantidade de parametros
-#considerar perdas
-#permitir a passagem do host de forma opcional
-#implementar pacotes udp, tcp e icmp
-#verificar jitter
-# See more at: http://www.devin.com.br/shell_script/#sthash.tCFaYGI7.dpuf
